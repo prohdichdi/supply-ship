@@ -97,8 +97,8 @@
 		"innerColor": [80,80,80],
 		"uniqueName": "電神",
 		"uniqueText":{"被攻擊時,告知全世界.向城邦贈禮時影響力+100%,城邦領土始終被視為友善領土,每座城市[+1 Culture]"},
-		"unique": ["Triggers the following global alert: [永廷大人被攻擊了!] <upon declaring war with a major Civilization>","Gifts of Gold to City-States generate [100]% more Influence","City-State territory always counts as friendly territory","[+1 Culture] [in all cities]"]
-
+		"unique": ["Triggers the following global alert: [永廷大人被攻擊了!] <upon declaring war with a major Civilization>","Gifts of Gold to City-States generate [100]% more Influence","City-State territory always counts as friendly territory","[+1 Culture] [in all cities]"],
+		"cities": ["a","b","c"]
 	}
 
 
