@@ -21,5 +21,63 @@
 		"happiness": 2,
 		"uniques": ["40% of food is carried over after a new citizen is born"],
 		"requiredTech": "Engineering"
+	},
+	{
+		"name": "芭樂汁工廠",
+		"uniqueTo": "永廷",
+		"isNationalWonder": true,
+		"cost": 60,
+		"happiness": 2,
+		"food": 4,
+		"gold": 4,
+		"uniques": ["Requires at least [10] population"],
+		"quote":"'我好愛喝芭樂汁,好甜好好喝'-永廷"
+
+	},
+	{
+		"name": "能量飲料工廠",
+		"uniqueTo": "前一大堆人",
+		"isNationalWonder": true,
+		"cost": 60,
+		"food": 1,
+		"production": 5,
+		"gold": 4,
+		"uniques": ["Requires at least [10] population"],
+		"quote":"'清爽柑橘味的能量飲料才是真理,這間工廠只生產最好喝的能量飲料,一口下去,體驗身體超頻的感覺.'-JT0"
+
+	},
+	{
+		"name": "瓶裝咖啡工廠",
+		"uniqueTo": "一大堆人",
+		"isNationalWonder": true,
+		"cost": 60,
+		"food": 1,
+		"production": 4,
+		"gold": 5,
+		"uniques": ["Requires at least [10] population"],
+		"quote":"'我平常不會喝咖啡,這樣在緊急狀況時咖啡就有更大的效果'-赫迪奇迪"
+
+	},
+	{
+		"name": "礦泉水工廠",
+		"uniqueTo": "毒窟",
+		"isNationalWonder": true,
+		"cost": 60,
+		"food": 2,
+		"happiness":1,
+		"culture":4,
+		"gold": 3,
+		"uniques": ["Requires at least [10] population"],
+		"quote":"'你不要拿我的水啦!'-迷你球"
+
+	},
+	{
+		"name": "頂尖狙擊手培訓",
+		"isNationalWonder": true,
+		"cost": 3000,
+		"uniques": ["Free [次世代狙擊王] appears"],
+		"requiredTech": "Replaceable Parts",
+		"quote":"'這位是無人可敵的天才狙擊手'-教官"
+
 	}
 ]
