@@ -34,6 +34,30 @@
 			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
 			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
 			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+	},
+	{
+		"name": "一大堆人",
+		"leaderName": "邪惡奪權者赫迪奇迪",
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "在一大堆人伺服器動盪之時,邪惡的赫迪奇迪背叛了最高管理員並奪走了他的權限,隨即發動戒嚴令鎮壓反抗軍,憑著最高權限在一次次的戰鬥中取得勝利,然而,在反抗軍最後的孤注一擲中赫迪奇迪陷入苦戰,戰爭的結果就是歸零",
+		"startIntroPart2": "時間沖刷了一切戰爭的痕跡,但歷史不會,你身為赫迪奇迪的殘黨,記取上次輕敵的教訓,將其他文明全部摧毀吧!",
+		"declaringWar": "時候到了,該結束這一切了,大佬登場!",
+		"attacked": "雖然是意料之外,但我不會失敗的",
+		"defeated": "我用盡了所有底牌,為什麼會這樣?哪個環節出問題了?啊啊啊啊啊啊啊!",
+		"introduction": "我是傳奇大佬赫迪奇迪,祝你好運",
+		"neutralHello": "恩",
+		"hateHello": "你還有臉來見我?",	
+		"tradeRequest": "這不是貿易,是我來通知你等等必須做的事",
+		"outerColor": [16,16,16],
+		"innerColor": [255,200,200],
+		"uniqueName": "大佬模式!",
+		"uniqueText":"每座城市[+3 Production],城市強度+30%",
+		"unique": [
+			"[+3 Production] [in all cities]",
+			"[+25]% Strength for cities"
+		],
+		"cities": ["DI聯軍總部","最後的堡壘","聯軍前哨站","人才召募區","秘密軍火庫","廢棄的語音投票所","無解城","一大堆人大廳區","一大堆人語音頻道",
+			"遊戲討論區","爆氣長文專區","神奇的東西","至高點","墮落","回收場","管理層人員機密討論區","真相館","算命室"]
 	}
 
 ]
