@@ -78,6 +78,27 @@
 		"uniqueText":"每座城市[+5 Science],黃金時代長度加50%",
 		"unique": ["[+5 Science][in all cities]","[+50]% Golden Age length"],
 		"cities": ["資研社大本營","電腦桌","圖片庫"]
+	},
+	{
+		"name": "永廷",
+		"leaderName": "kouby",
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "永廷是一大堆人伺服器的管理員之一,也是在伺服器崩潰之前最活躍的管理員之一,他涉略多種遊戲,與大多成員都有倆好的關係",
+		"startIntroPart2": "如今伺服器已毀,請收集各總奢侈品,維持各方勢力的平衡,再次成為這世界的王吧!",
+		"declaringWar": "你把我的海尼根拿到哪了!",
+		"attacked": "你並非只向我宣戰,是向全世界!",
+		"defeated": "現在開始,我要關麥了",
+		"introduction": "你好",
+		"neutralHello": "恩哼",
+		"hateHello": ".....",	
+		"tradeRequest": "我給你這個,你給我這個",
+		"outerColor": [225,215,0],
+		"innerColor": [80,80,80],
+		"uniqueName": "電神",
+		"uniqueText":{"被攻擊時,告知全世界.向城邦贈禮時影響力+100%,城邦領土始終被視為友善領土,每座城市[+1 Culture]"},
+		"unique": ["Triggers the following global alert: [永廷大人被攻擊了!] <upon declaring war with a major Civilization>","Gifts of Gold to City-States generate [100]% more Influence","City-State territory always counts as friendly territory","[+1 Culture] [in all cities]"]
+
 	}
 
 
