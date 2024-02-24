@@ -58,6 +58,80 @@
 		],
 		"cities": ["DI聯軍總部","最後的堡壘","聯軍前哨站","人才召募區","秘密軍火庫","廢棄的語音投票所","無解城","一大堆人大廳區","一大堆人語音頻道",
 			"遊戲討論區","爆氣長文專區","神奇的東西","至高點","墮落","回收場","管理層人員機密討論區","真相館","算命室"]
+	},
+	{
+		"name": "前一大堆人",
+		"leaderName": "最高管理員JT0",
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "JT0是伺服器一大堆人的創始者,締造了一大堆人的黃金時代,但因為某次的政策失誤被奪走權限,最後銷聲匿跡在伺服器",
+		"startIntroPart2": "現在就是東山再起的最佳時刻,打敗當初的背叛者,重振一大堆人的榮耀",
+		"declaringWar": "為了一大堆人,這是必要的犧牲",
+		"attacked": "你如果按照我的計劃還能活一陣子,為何要招致死亡呢?",
+		"defeated": "原以為我不會再失誤第二次",
+		"introduction": "要加入我們,一起復興一大堆人嗎？",
+		"neutralHello": "天氣真好",
+		"hateHello": "滾!",	
+		"tradeRequest": "我想跟你談談",
+		"outerColor": [18,84,65],
+		"innerColor": [255,210,198],
+		"uniqueName": "內心毫無波瀾",
+		"uniqueText":"每座城市[+5 Science],黃金時代長度加50%",
+		"unique": ["[+5 Science][in all cities]","[+50]% Golden Age length"],
+		"cities": ["資研社大本營","電腦桌","圖片庫"]
+	},
+	{
+		"name": "永廷",
+		"leaderName": "kouby",
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "永廷是一大堆人伺服器的管理員之一,也是在伺服器崩潰之前最活躍的管理員之一,他涉略多種遊戲,與大多成員都有倆好的關係",
+		"startIntroPart2": "如今伺服器已毀,請收集各總奢侈品,維持各方勢力的平衡,再次成為這世界的王吧!",
+		"declaringWar": "你把我的海尼根拿到哪了!",
+		"attacked": "你並非只向我宣戰,是向全世界!",
+		"defeated": "現在開始,我要關麥了",
+		"introduction": "你好",
+		"neutralHello": "恩哼",
+		"hateHello": ".....",	
+		"tradeRequest": "我給你這個,你給我這個",
+		"outerColor": [225,215,0],
+		"innerColor": [80,80,80],
+		"uniqueName": "電神",
+		"uniqueText":{"被攻擊時,告知全世界.向城邦贈禮時影響力+100%,城邦領土始終被視為友善領土,每座城市[+1 Culture]"},
+		"unique": ["Triggers the following global alert: [永廷大人被攻擊了!] <upon declaring war with a major Civilization>","Gifts of Gold to City-States generate [100]% more Influence","City-State territory always counts as friendly territory","[+1 Culture] [in all cities]"]
+
+	},
+	{
+		"name": "毒窟",
+		"leaderName": "的三大護法迷你球",
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "迷你球是神秘組織毒窟的一員,擁有良好的修養而受到大家歡迎",
+		"declaringWar": "你死定了",
+		"attacked": "我不理你了",
+		"defeated": "可惡",
+		"introduction": "你好,你可以叫我迷你球",
+		"neutralHello": "hi",
+		"hateHello": "要不是我修養好,你早就完蛋了.",	
+		"tradeRequest": "來交易一下",
+		"outerColor": [98,5,197],
+		"innerColor": [255,255,255],
+		"uniqueName": "小球",
+		"uniqueText":{"首都[+5 Culture],每個已知的自然奇觀[+2 Gold],提高道路上的移動速度"},
+		"unique": ["[+5 Culture] [in capital]","[+2 Gold] for every known Natural Wonder","Improves movement speed on roads"],
+		"cities": ["毒窟基地","規則","港口","身分組領取中心","聊天室","音樂","動漫討論","剪輯和精選","積分垃圾人",
+			"原神抽卡模擬","語音頻道區","大廳","邊聽邊讀-讀書室","飛鼠補習班","色色區","可以色色"]
+
+	},
+	{
+		"name": "普羅赫迪奇迪",
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "奉主人之令,前來消滅你這混蛋",
+		"attacked": "雖然我只是個城邦,但並不代表會比你弱",
+		"defeated": "我現在只是被拋棄的棋子,你願意賦予我新的意義嗎?但你只有再見可以選擇",
+		"outerColor": [0, 0, 0],
+		"innerColor": [234,168,4],
+		"cities": ["普羅赫迪奇迪"]
 	}
 
 ]
