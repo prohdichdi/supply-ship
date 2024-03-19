@@ -1,17 +1,123 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+		"name": "Ironclad",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]","[+50]% Strength when stacked with [AC Colliers]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 55,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "Combustion",
+		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
+			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>",
+			"[+50]% Strength when stacked with [AE Ammunition Ships]",
+			"[+70]% Strength when stacked with [AO Fleet Oilers]"
+		],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit",
+			"[+50]% Strength when stacked with [AE Ammunition Ships]",
+			"[+70]% Strength when stacked with [AO Fleet Oilers]"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Missile Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 7,
+		"strength": 80,
+		"rangedStrength": 100,
+		"range": 3,
+		"interceptRange": 2,
+		"cost": 425,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "AC Colliers",
+		"unitType": "Civilian",
+		"cost": 150,
+		"movement": 3,
+		"requiredTech": "Steam Power",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "AE Ammunition Ships",
+		"uniques": ["Never appears as a Barbarian unit","Uncapturable"]
+	},
+	{
+		"name": "AE Ammunition Ships",
+		"unitType": "Civilian",
+		"cost": 200,
+		"movement": 3,
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit","Uncapturable"]
+	},
+	{
+		"name": "AFS Combat stores ships",
+		"unitType": "Melee Water",
+		"cost": 280,
+		"strength": 45,
+		"interceptRange": 1,
+		"movement": 6,
+		"requiredTech": "Electronics",
+		"requiredResource": "Oil",
+		"uniques": ["Never appears as a Barbarian unit",
+			"[+30]% Strength bonus for [Destroyer] units within [2] tiles",
+			"[+30]% Strength bonus for [Battleship] units within [2] tiles",
+			"All adjacent units heal [20] HP when healing",
+			"[30]% chance to intercept air attacks"]
+	},
+	{
+		"name": "AKE Advanced Auxiliary Dry Cargo Ships",
+		"unitType": "Melee Water",
+		"cost": 300,
+		"strength": 60,
+		"interceptRange": 2,
+		"movement": 6,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"uniques": ["Never appears as a Barbarian unit",
+			"[+40]% Strength bonus for [Destroyer] units within [2] tiles",
+			"[+40]% Strength bonus for [Battleship] units within [2] tiles",
+			"[+40]% Strength bonus for [Missile Cruiser] units within [2] tiles",
+			"All adjacent units heal [25] HP when healing",
+			"[50]% chance to intercept air attacks"]
+	
+	},
+	{
+		"name": "AO Fleet Oilers",
+		"unitType": "Civilian",
+		"cost": 280,
+		"movement": 7,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"uniques": ["Never appears as a Barbarian unit",
+			"All adjacent units heal [30] HP when healing"]
+	},
+
 ]
