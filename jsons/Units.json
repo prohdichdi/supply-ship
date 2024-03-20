@@ -55,7 +55,9 @@
 		"cost": 425,
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
-			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>","[+50]% Strength when stacked with [AE Ammunition Ships]",
+			,"[+70]% Strength when stacked with [AO Fleet Oilers]", "Never appears as a Barbarian unit"
+		],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -89,7 +91,7 @@
 		"uniques": ["Never appears as a Barbarian unit",
 			"[+30]% Strength bonus for [Destroyer] units within [2] tiles",
 			"[+30]% Strength bonus for [Battleship] units within [2] tiles",
-			"All adjacent units heal [20] HP when healing",
+			"All adjacent units heal [10] HP when healing",
 			"[30]% chance to intercept air attacks"]
 	},
 	{
@@ -105,19 +107,36 @@
 			"[+40]% Strength bonus for [Destroyer] units within [2] tiles",
 			"[+40]% Strength bonus for [Battleship] units within [2] tiles",
 			"[+40]% Strength bonus for [Missile Cruiser] units within [2] tiles",
-			"All adjacent units heal [25] HP when healing",
+			"All adjacent units heal [15] HP when healing",
 			"[50]% chance to intercept air attacks"]
 	
 	},
 	{
 		"name": "AO Fleet Oilers",
 		"unitType": "Civilian",
-		"cost": 280,
+		"cost": 250,
 		"movement": 7,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"uniques": ["Never appears as a Barbarian unit",
+		"uniques": ["Never appears as a Barbarian unit","Uncapturable",
 			"All adjacent units heal [30] HP when healing"]
+	},
+	{
+		"name": "AOE Fast Combat Support Ship",
+		"unitType": "Melee Water",
+		"cost": 360,
+		"movement": 7,
+		"strength": 75,
+		"rangedStrength": 90,
+		"range": 3,
+		"interceptRange": 2,
+		"requiredTech": "Robotics",
+		"requiredResource": "Oil",
+		"uniques": ["Never appears as a Barbarian unit","Uncapturable",
+			"[+100]% Strength bonus for [Destroyer] units within [2] tiles",
+			"[+100]% Strength bonus for [Battleship] units within [2] tiles",
+			"[+100]% Strength bonus for [Missile Cruiser] units within [2] tiles",
+			"All adjacent units heal [25] HP when healing"]
 	},
 
 ]
