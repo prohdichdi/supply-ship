@@ -56,7 +56,7 @@
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
 			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>","[+50]% Strength when stacked with [AE Ammunition Ships]",
-			,"[+70]% Strength when stacked with [AO Fleet Oilers]", "Never appears as a Barbarian unit"
+			"[+70]% Strength when stacked with [AO Fleet Oilers]", "Never appears as a Barbarian unit"
 		],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
